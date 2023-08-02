@@ -1,6 +1,5 @@
-from typing import ClassVar
+from typing import ClassVar, overload
 
-from typing import overload
 BAROMETER_RECORDABLE_CLASS: RecordableTypeId
 BLUETOOTH_BEACON_RECORDABLE_CLASS: RecordableTypeId
 EYE_CAMERA_RECORDABLE_CLASS: RecordableTypeId

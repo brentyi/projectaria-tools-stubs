@@ -1,6 +1,7 @@
-from _typeshed import Incomplete
 from enum import Enum
 from typing import List, Optional
+
+from _typeshed import Incomplete
 
 CHUCK_SIZE_BYTE: int
 STATUS_CODE_DEFAULT: int
@@ -33,5 +34,13 @@ class AriaDigitalTwinDatasetDownloader:
     data_types: Incomplete
     sequences: Incomplete
     overwrite: Incomplete
-    def __init__(self, cdn_file: str, data_group: AriaDigitalTwinDataGroup, data_category: str, data_types: List[AriaDigitalTwinDataType], sequences: Optional[List[str]] = ..., overwrite: bool = ...) -> None: ...
+    def __init__(
+        self,
+        cdn_file: str,
+        data_group: AriaDigitalTwinDataGroup,
+        data_category: str,
+        data_types: List[AriaDigitalTwinDataType],
+        sequences: Optional[List[str]] = ...,
+        overwrite: bool = ...,
+    ) -> None: ...
     def download_data(self, output_folder: str): ...

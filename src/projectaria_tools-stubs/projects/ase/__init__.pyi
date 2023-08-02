@@ -1,3 +1,5 @@
-import _core_pybinds.calibration
+import projectaria_tools.core.calibration
 
-def get_ase_rgb_calibration(image_size: int = ...) -> _core_pybinds.calibration.CameraCalibration: ...
+def get_ase_rgb_calibration(
+    image_size: int = ...,
+) -> projectaria_tools.core.calibration.CameraCalibration: ...
