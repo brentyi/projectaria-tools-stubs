@@ -1,1 +1,3 @@
-from _ase_pybinds import *
+import _core_pybinds.calibration
+
+def get_ase_rgb_calibration(image_size: int = ...) -> _core_pybinds.calibration.CameraCalibration: ...
